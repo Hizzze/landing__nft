@@ -29,7 +29,7 @@ a,p{
     text-decoration: none;
     padding: 0;
     margin: 0;
-    color: #000;
+    color: #532C59;
 }
 
 body{
@@ -263,6 +263,53 @@ body{
     font-size: 32px;
     line-height: 42px;
     color: #000;
+    text-align: center;
+}
+
+/* Section provide */
+
+.provide{
+    margin-bottom: 200px;
+}
+
+.provide__inner{
+    text-align: center;
+}
+
+.provide__title{
+    margin-bottom: 25px;
+}
+
+.provide__text{
+    max-width: 690px;
+    margin: 0 auto;
+}
+
+.provide__item-text{
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 36px;
+    color:#000;
+    margin: 16px 12px 0px 0px;
+}
+
+.provide__item-img{
+    margin-top: 60px;
+}
+
+.provide__item-descr{
+    max-width: 269px;
+    font-size: 14px;
+}
+
+
+.provide__items{
+   display: flex;
+   justify-content: space-between;
+}
+
+.provide__item{
+    max-width: 270px;
     text-align: center;
 }
 
