@@ -106,7 +106,7 @@ body{
     margin-bottom: 50px;
 }
 
-.header__btn{
+.section__btn{
     padding: 16px 20px;
     color: #fff;
     background-color: #532C59;
@@ -118,7 +118,7 @@ body{
     margin-bottom: 150px;
 }
 
-.header__btn:hover{
+.section__btn:hover{
     transition: all 0.7s ease;
     background-color: #E36CE6;
 }
@@ -428,4 +428,59 @@ body{
     overflow: hidden;
     display: flex;
     transition: 0.3s;
+}
+
+/* Section Sell */
+
+.sell{
+    margin-bottom: 170px;
+}
+.sell__box{
+    text-align: center;
+    align-items: center;
+    padding-top: 117px;
+    padding-bottom: 117px;
+    max-width: 1300px;
+    height: 446px;
+    background: #FCFAFF;
+    border: 1px solid #D6BCFA;
+    box-shadow: inset 0px 0px 50px #F8E0FA;
+    border-radius: 60px;
+    position: relative;
+
+}
+.sell__title{
+    margin-bottom: 15px;
+}
+.sell_text{
+    max-width: 710px;
+    margin: 0 auto;
+}
+
+.sell__btn{
+    margin-top: 30px;
+    margin-bottom: 0;
+}
+
+.img--1,.img--2,.img--3,.img--4{
+    position: absolute;
+}
+.img--1{
+   
+    left: 990px;
+    top: 20px;
+}
+.img--2{
+    left: 120px;
+    top: 20px;
+}
+.img--4{
+    left: 20px;
+    top: 200px;
+}
+
+.img--3{
+    left: 920px;
+    top: 220px;
+    height: 200px;
 }
