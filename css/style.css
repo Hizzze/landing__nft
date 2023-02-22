@@ -55,6 +55,7 @@ body{
 }
 .header__nav-left,.header__nav-right{
     opacity: 0.5;
+    padding: 20px 0;
 }
 .header__nav{
     padding: 20px 0;
@@ -483,4 +484,33 @@ body{
     left: 920px;
     top: 220px;
     height: 200px;
+}
+
+/* Section footer */
+.footer{
+
+}
+.footer__nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+    position: relative;
+    border-bottom: 1px solid #CCD5DF;
+}
+.footer__nav-item + .footer__nav-item{
+    padding-left: 25px;
+}
+
+.footer__nav-left,
+.footer__nav-right{
+    padding: 20px 0;
+}
+.copy__text{
+    padding: 40px 0;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 20px;
+    color: #000000;
+    text-align: center;
+    opacity: 0.5;
 }
