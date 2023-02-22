@@ -361,12 +361,19 @@ body{
     width: 291px;
 }
 
+/* Section Asked */
+
 .asked{
     z-index: 10;
     height: 632px;
     padding-top: 80px;
     transform: translateY(-7%);
     background: #FCFAFF;
+}
+
+.asked__inner{
+    display: flex;
+    gap: 32px;
 }
 
 .asked__title{
@@ -376,4 +383,49 @@ body{
 
 .asked__text{
     max-width: 412px;
+}
+
+.asked__rightside{
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 15px 40px;
+}
+
+.asked__box{
+    padding: 24px;
+    border: 1px solid #D6BCFA;
+    border-radius: 15px;
+    background: #FCFAFF ;
+    margin: 0;
+    position: relative;
+    max-width: 412px;
+    height: fit-content;
+    width: fit-content;
+
+}
+
+.asked__box p{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 26px;
+    color: #000000;
+    opacity: 0.8;
+    margin: 0;
+    padding-bottom: 12px;
+}
+.asked__box svg{
+    position: absolute;
+    right: 15px;
+    top: 15px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.asked__box span{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    overflow: hidden;
+    display: flex;
+    transition: 0.3s;
 }
